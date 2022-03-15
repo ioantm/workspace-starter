@@ -52,6 +52,9 @@ Depending on your version the following rules will apply:
 | v6.1.0.1 - v6.3.1.3 |                 Yes                | openfinSystemApplications |
 | v6.4.1.1 & above    |                 Yes                | systemApps                |
 
+## Note on DOS file
+Some of these examples in the *how-to* folder include a *desktop-owner-settings.bat* file that will replace your existing registry key that holds the URL value of your DOS. If you have a local or Global DOS already establisehed, feel free to remove this file from your program. Don't worry if you don't remove this file as the program asks if you want to overwrite your registry key.     
+
 ### Example Desktop Owner Setting for OpenFinRVM v6.1.0.1 - v6.3.1.3
 
 ```json
